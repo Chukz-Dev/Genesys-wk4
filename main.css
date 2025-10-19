@@ -1,32 +1,32 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   color: #00000088;
   background-color: #fff;
 }
 
-.hero-sec{
+.hero-sec {
   width: 100%;
   min-height: 100vh;
 }
 
-header{
+header {
   padding-top: 30px;
   position: fixed;
   width: 100%;
   z-index: 999;
 }
 
-nav{
+nav {
   display: flex;
 
   justify-content: space-between;
@@ -39,37 +39,37 @@ nav{
   box-shadow: 0px 0px 10px rgba(29, 29, 29, 0.26);
 }
 
-img{
+img {
   width: 100%;
   height: auto;
 }
 
-.pic-ctn1{
+.pic-ctn1 {
   width: 100px;
   cursor: pointer;
 }
 
-nav ul{
+nav ul {
   list-style: none;
   display: flex;
 }
 
-.fa-bars{
+.fa-bars {
   display: none;
 }
 
-nav li a{
+nav li a {
   text-decoration: none;
   color: #00000088;
 }
 
-nav li{
+nav li {
   margin: 0 20px;
   cursor: pointer;
   position: relative;
 }
 
-nav li::after{
+nav li::after {
   content: "";
   position: absolute;
   bottom: -5px;
@@ -83,11 +83,11 @@ nav li::after{
   transform: scaleX(0);
 }
 
-nav li:hover::after{
+nav li:hover::after {
   transform: scaleX(1);
 }
 
-.download-btn{
+.download-btn {
   background-color: rgba(0, 0, 255, 0.315);
   padding: 10px 15px;
   border-radius: inherit;
@@ -98,7 +98,7 @@ nav li:hover::after{
   transition: 0.15s;
 }
 
-.download-btn:hover{
+.download-btn:hover {
   background-color: blue;
   color: #fff;
 }
@@ -115,11 +115,12 @@ nav li:hover::after{
 
 
 
-.hero-sec{
+.hero-sec {
   position: relative;
   color: #00000088;
 }
-.hero-sec .img-ctn{
+
+.hero-sec .img-ctn {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -127,7 +128,7 @@ nav li:hover::after{
   width: 300px;
 }
 
-.background{
+.background {
   position: absolute;
   bottom: -110px;
   left: 50%;
@@ -139,7 +140,7 @@ nav li:hover::after{
   z-index: -1;
 }
 
-.hero-sec .intro-ctn{
+.hero-sec .intro-ctn {
   position: absolute;
   top: 18%;
   left: 50%;
@@ -150,7 +151,7 @@ nav li:hover::after{
   align-items: center;
 }
 
-.btn-ctn{
+.btn-ctn {
   position: absolute;
   bottom: 13%;
   left: 50%;
@@ -161,7 +162,7 @@ nav li:hover::after{
   width: 500px;
 }
 
-#port{
+#port {
   padding: 7px 20px;
   border-radius: 20px;
   border: 2px solid blue;
@@ -170,12 +171,13 @@ nav li:hover::after{
   box-shadow: 10px 0px 20px #00000088;
   transition: 0.15s;
 }
-#port:hover{
+
+#port:hover {
   background-color: blue;
   color: #fff;
 }
 
-#hire{
+#hire {
   padding: 7px 20px;
   border-radius: 20px;
   background-color: blue;
@@ -185,29 +187,34 @@ nav li:hover::after{
   box-shadow: 10px 0px 20px #00000088;
   transition: 0.15s;
 }
-#hire:hover{
+
+#hire:hover {
   background-color: #fff;
   color: blue;
 }
 
-.hello{
+.hello {
   background-color: #fff;
   padding: 5px 15px;
   border-radius: 15px;
   border: 2px solid blue;
 }
 
-.intro{
+.intro {
   font-size: 4em;
   font-weight: 600;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-span{
+.intro-ctn {
+  width: 700px;
+}
+
+span {
   color: rgba(0, 0, 255, 0.801);
 }
 
-article{
+article {
   position: absolute;
   top: 50%;
   left: 0;
@@ -218,15 +225,15 @@ article{
   margin: 0 60px;
 }
 
-article div{
+article div {
   width: 30%;
 }
 
-#col{
+#col {
   font-size: 2rem;
 }
 
-article span{
+article span {
   color: blue;
 }
 
@@ -246,13 +253,13 @@ article span{
 
 
 
-.project-sec{
+.project-sec {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(to top, #fff, #00000088);
 }
 
-.top{
+.top {
   text-align: center;
   padding: 20px;
   color: rgb(0, 0, 0);
@@ -261,7 +268,7 @@ article span{
   padding-top: 120px;
 }
 
-.project-ctn{
+.project-ctn {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -269,7 +276,7 @@ article span{
   margin: 0 30px;
 }
 
-.portfolio-ctn{
+.portfolio-ctn {
   background-color: #fff;
   width: 300px;
   height: 300px;
@@ -281,15 +288,16 @@ article span{
   box-shadow: 0px 0px 20px #00000088;
 }
 
-.portfolio-ctn img{
+.portfolio-ctn img {
   border-radius: 20px;
 }
 
-.title{
+.title {
   color: #000;
   font-weight: 500;
 }
-.portfolio-ctn p{
+
+.portfolio-ctn p {
   margin-bottom: 10px;
   padding: 0 10px;
 }
@@ -308,7 +316,7 @@ article span{
 
 
 
-.contact-sec .talk{
+.contact-sec .talk {
   text-align: center;
   padding: 20px;
   color: blue;
@@ -317,18 +325,18 @@ article span{
   padding-top: 120px;
 }
 
-.contact-sec p{
+.contact-sec p {
   text-align: center;
   font-weight: 500;
 }
 
-.contact-div{
+.contact-div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-form{
+form {
   margin-top: 30px;
   margin-bottom: 50px;
   display: flex;
@@ -338,7 +346,8 @@ form{
   width: 50%;
 }
 
-input, textarea{
+input,
+textarea {
   padding: 10px 5px;
   border-radius: inherit;
   margin: 10px 0;
@@ -347,19 +356,19 @@ input, textarea{
   outline-color: blue;
 }
 
-textarea{
+textarea {
   height: 80px;
   padding: 10px;
 }
 
-.send-btn{
+.send-btn {
   font-weight: 600;
   font-size: medium;
   transition: 0.15s;
   cursor: pointer;
 }
 
-.send-btn:hover{
+.send-btn:hover {
   background-color: blue;
   color: #fff;
 }
@@ -376,7 +385,7 @@ textarea{
 
 
 
-footer{
+footer {
   position: relative;
   right: 0;
   left: 0;
@@ -388,17 +397,17 @@ footer{
   font-size: 12px;
 }
 
-.connect{
+.connect {
   font-weight: 500;
   font-size: 1.2em;
 }
 
-footer a{
+footer a {
   color: #fff;
   text-decoration: none;
 }
 
-.socials{
+.socials {
   margin-bottom: 20px;
   margin-top: 40px;
   display: flex;
@@ -406,7 +415,7 @@ footer a{
   align-items: center;
 }
 
-.icons a{
+.icons a {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -419,12 +428,13 @@ footer a{
   transition: 0.15s;
 }
 
-.fa-brands, .fa-solid{
+.fa-brands,
+.fa-solid {
   font-size: 150%;
   cursor: pointer;
 }
 
-.icons a:hover{
+.icons a:hover {
   color: rgb(1, 1, 22);
 }
 
@@ -436,56 +446,70 @@ footer a{
 
 
 @media (max-width:600px) {
-  nav{
+  nav {
     padding: 10px 20px;
     margin: 0 10px;
   }
-  nav ul, .download-btn{
+
+  nav ul,
+  .download-btn {
     display: none;
   }
-  .fa-bars{
-    display:contents;
+
+  .fa-bars {
+    display: contents;
   }
-  .background{
+
+  .hero-sec .img-ctn {
+    width: 350px;
+  }
+
+  .background {
     width: 370px;
     height: 370px;
   }
-  .btn-ctn{
+
+  .btn-ctn {
     bottom: 13%;
     width: 300px;
   }
-  .intro-ctn{
+
+  .intro-ctn {
     width: 300px;
   }
-  .intro{
+
+  .intro {
     font-size: 2em;
   }
-  article{
+
+  article {
     top: 37%;
     font-size: 0.6em;
     margin: 0 25px;
   }
 
-  .project-sec div{
+  .project-sec div {
     flex-direction: column;
     gap: 15px;
     margin: 0;
   }
-  .top{
+
+  .top {
     margin-bottom: 15px;
   }
 
-  form{
+  form {
     width: 90%;
   }
 
-  .socials{
+  .socials {
     flex-direction: column;
     justify-self: start;
     align-items: start;
     gap: 10px;
   }
-  .icons a{
+
+  .icons a {
     flex-direction: row;
   }
 }
@@ -494,29 +518,32 @@ footer a{
 
 
 
-@media (min-width:600px) and (max-width:1320px) {
-  nav ul, .download-btn{
+@media (min-width:600px) and (max-width:800px) {
+
+  nav ul,
+  .download-btn {
     display: none;
   }
-  .fa-bars{
-    display:contents;
+
+  .fa-bars {
+    display: contents;
   }
 
-   .intro-ctn{
+  .intro-ctn {
     width: 500px;
   }
-  article{
+
+  article {
     font-size: 1em;
   }
 
-  .project-sec div{
+  .project-sec div {
     flex-direction: column;
     gap: 15px;
     margin: 0;
   }
-  form{
+
+  form {
     width: 80%;
   }
 }
-
-
